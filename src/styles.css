@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.page .section:nth-child(n + 1) {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.page .section:first-child {
+  font-size: 50px;
+  color: white;
+}
+
+#app {
+  position: fixed;
+  width: 99.044%;
+  height: 98.54%;
+}
+
+.page .section {
+  position: relative;
+  z-index: 2;
+}
+
+/* .page .section {
+  position: relative;
+} */
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* outline: 1px solid red; */
+}
